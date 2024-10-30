@@ -1,0 +1,176 @@
+/*SECCION SKILLS*/
+
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  .skills .container-section{
+    max-width: 1100px;
+    margin: auto;
+  }
+  .skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+  
+  }
+  .skills .row{
+    display: flex;
+  }
+  .skills .row .col{
+    width: 50%;
+    padding: 0 20px;
+  }
+  .skills .row .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+  }
+  .skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .skills .skill .skill-bar{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .skills .skill .progress{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+  }
+  .skills .skill .skill-bar span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+  }
+  /* clases dinamicas mediante javascript */
+  .skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+  }
+  @keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 30%;}
+  }
+  .skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+  }
+  @keyframes python {
+    0%{width: 0%;}
+    100%{width: 50%;}
+  }
+  
+  .skills .skill .htmlCss{
+    width: 0%;
+    animation: 2s htmlCss forwards;
+  }
+  @keyframes htmlCss {
+    0%{width: 0%;}
+    100%{width: 70%;}
+  }
+  .skills .skill .angular{
+    width: 0%;
+    animation: 2s angular forwards;
+  }
+  @keyframes angular {
+    0%{width: 0%;}
+    100%{width: 30%;}
+  }
+  .skills .skill .DRF{
+    width: 0%;
+    animation: 2s DRF forwards;
+  }
+  @keyframes DRF {
+    0%{width: 0%;}
+    100%{width: 50%;}
+  }
+  .skills .skill .bootstrap{
+    width: 0%;
+    animation: 2s bootstrap forwards;
+  }
+  @keyframes bootstrap {
+    0%{width: 0%;}
+    100%{width: 50%;}
+  }
+  .skills .skill .GIT{
+    width: 0%;
+    animation: 2s GIT forwards;
+  }
+  @keyframes GIT {
+    0%{width: 0%;}
+    100%{width: 70%;}
+  }
+  .skills .skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+  }
+  @keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 40%;}
+  }
+  .skills .skill .elementor{
+    width: 0%;
+    animation: 2s elementor forwards;
+  }
+  @keyframes elementor {
+    0%{width: 0%;}
+    100%{width: 40%;}
+  }
+  .skills .skill .empathy{
+    width: 0%;
+    animation: 2s empathy forwards;
+  }
+  @keyframes empathy {
+    0%{width: 0%;}
+    100%{width: 80%;}
+  }
+  .skills .skill .creativity{
+    width: 0%;
+    animation: 2s creativity forwards;
+  }
+  @keyframes creativity {
+    0%{width: 0%;}
+    100%{width: 75%;}
+  }
+  .skills .skill .teamWork{
+    width: 0%;
+    animation: 2s teamWork forwards;
+  }
+  @keyframes teamWork {
+    0%{width: 0%;}
+    100%{width: 80%;}
+  }
+  .skills .skill .discipline{
+    width: 0%;
+    animation: 2s discipline forwards;
+  }
+  @keyframes discipline {
+    0%{width: 0%;}
+    100%{width: 70%;}
+  }
+  .skills .skill .focused{
+    width: 0%;
+    animation: 2s focused forwards;
+  }
+  @keyframes focused {
+    0%{width: 0%;}
+    100%{width: 70%;}
+  }
+  
