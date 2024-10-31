@@ -91,7 +91,15 @@
   }
   @keyframes angular {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 35%;}
+  }
+  .skills .skill .reactJs{
+    width: 0%;
+    animation: 2s reactJs forwards;
+  }
+  @keyframes reactJs {
+    0%{width: 0%;}
+    100%{width: 35%;}
   }
   .skills .skill .DRF{
     width: 0%;

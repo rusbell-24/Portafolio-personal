@@ -1,0 +1,20 @@
+/*SECCION PORTAFOLIO*/
+
+  
+.projects-portfolio {
+max-width: 1100px;
+margin: auto;
+}
+
+.projects-portfolio h2 {
+font-size: 48px;
+font-family: "Righteous";
+text-align: center;
+padding: 20px 0;
+}
+
+.projects-portfolio .gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}

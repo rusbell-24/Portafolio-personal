@@ -1,10 +1,6 @@
 /*SECCION CONTACTO*/
-.contact{
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
-  }
-  .contact .container-section{
+
+  .contact {
     max-width: 1100px;
     margin: auto;
   }

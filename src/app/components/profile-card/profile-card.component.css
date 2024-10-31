@@ -1,24 +1,15 @@
-/* SECCION INICIO*/
-.profile-card {
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile-card .container-banner  {
+/*SECCIÓN DE TARJETA DE PERFIL*/
+
+  .profile-card {
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin: auto;
     margin-top: 100px;
     text-align: center;
     border-radius: 40px;
   }
   
-  .profile-card .container-banner img {
+  .profile-card img {
     margin-top: 30px;
     border: 10px solid #1cb698;
     display: block;
@@ -27,18 +18,18 @@
     border-radius: 100%;
   }
   
-  .profile-card .container-banner h1 {
+  .profile-card h1 {
     margin-top: 40px;
     font-size: 36px;
     font-family: "Righteous";
   }
   
-  .profile-card .container-banner h2 {
+  .profile-card h2 {
     font-size: 15px;
     font-weight: normal;
   }
   
-  .profile-card .container-banner .social-media a {
+  .profile-card .social-media a {
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -52,6 +43,6 @@
     transition: .3s;
   }
   
-  .profile-card .container-banner .social-media a:hover{
+  .profile-card .social-media a:hover{
     background-color: #1cb698;
   }

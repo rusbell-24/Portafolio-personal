@@ -28,16 +28,17 @@ export class SkillsComponent implements OnInit {
         skill[1]?.classList.add('python');
         skill[2]?.classList.add('htmlCss');
         skill[3]?.classList.add('angular');
-        skill[4]?.classList.add('DRF');
-        skill[5]?.classList.add('bootstrap');
-        skill[6]?.classList.add('GIT');
-        skill[7]?.classList.add('wordpress');
-        skill[8]?.classList.add('elementor');
-        skill[9]?.classList.add('empathy');
-        skill[10]?.classList.add('creativity');
-        skill[11]?.classList.add('teamWork');
-        skill[12]?.classList.add('discipline');
-        skill[13]?.classList.add('focused');
+        skill[4]?.classList.add('reactJs');
+        skill[5]?.classList.add('DRF');
+        skill[6]?.classList.add('bootstrap');
+        skill[7]?.classList.add('GIT');
+        skill[8]?.classList.add('wordpress');
+        skill[9]?.classList.add('elementor');
+        skill[10]?.classList.add('empathy');
+        skill[11]?.classList.add('creativity');
+        skill[12]?.classList.add('teamWork');
+        skill[13]?.classList.add('discipline');
+        skill[14]?.classList.add('focused');
       }
     }
   }
