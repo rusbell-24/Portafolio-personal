@@ -1,0 +1,16 @@
+[
+    {
+        "img": "ruta/imagen1.jpg",
+        "title": "Proyecto 1",
+        "description": "Descripción del proyecto 1",
+        "urlCode": "https://github.com/proyecto1",
+        "urlPage": "https://pagina-proyecto1.com"
+    },
+    {
+        "img": "images/Gallery-Rusbell.png",
+        "title": "Galeria de Imagenes",
+        "description": "Esta es una Progressive Web App(PWA) construida con React-Framework",
+        "urlCode": "",
+        "urlPage": "https://galeria-de-imagenes-rusbell-react.netlify.app/"
+      }
+  ]
