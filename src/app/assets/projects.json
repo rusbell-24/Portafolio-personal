@@ -1,16 +1,37 @@
 [
     {
-        "img": "ruta/imagen1.jpg",
-        "title": "Proyecto 1",
-        "description": "Descripción del proyecto 1",
-        "urlCode": "https://github.com/proyecto1",
-        "urlPage": "https://pagina-proyecto1.com"
-    },
-    {
         "img": "images/Gallery-Rusbell.png",
         "title": "Galeria de Imagenes",
         "description": "Esta es una Progressive Web App(PWA) construida con React-Framework",
         "urlCode": "",
         "urlPage": "https://galeria-de-imagenes-rusbell-react.netlify.app/"
+      },
+    {
+        "img": "images/Agenda-Contactos.png",
+        "title": "Agenda de Contactos",
+        "description": "Esta es una Progressive Web App(PWA) de agenda de contactos construida con React-Framework y persistencia de datos en local storage.",
+        "urlCode": "",
+        "urlPage": "https://agenda-contactos-react-pwa-rusbell.netlify.app/"
+      },
+    {
+        "img": "images/CRUD-Registros.png",
+        "title": "Registros de personas",
+        "description": "Esta es una aplicación de registro de personas, con persistencia de datos en IndexedDB",
+        "urlCode": "",
+        "urlPage": "https://rusbell-24.github.io/CRUD_con_IndexedDB/"
+      },
+    {
+        "img": "images/Calculadora.png",
+        "title": "Calculadora",
+        "description": "Calculadora basica construida con ReactJs",
+        "urlCode": "",
+        "urlPage": "https://calculadora-rusbell-react.netlify.app/"
+      },
+    {
+        "img": "images/Contador-De-Clics.png",
+        "title": "Contador de Clics",
+        "description": "PWA construida con ReactJs",
+        "urlCode": "",
+        "urlPage": "https://contador-clics-rusbell-react.netlify.app/"
       }
   ]

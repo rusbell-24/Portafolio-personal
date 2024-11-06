@@ -1,40 +1,19 @@
-import { Component, OnInit, Injectable } from '@angular/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Component} from '@angular/core';
 import { ProjectCardComponent } from "../../components/sub-components/project-card/project-card.component";
-import { Observable } from 'rxjs';
 import { ProjectInterface } from './interface';
-
-@Injectable({
-  providedIn: 'root'
-})
+import projects from "../../assets/projects.json"
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects-portfolio',
   standalone: true,
-  imports: [ProjectCardComponent, HttpClientModule],
+  imports: [ProjectCardComponent, CommonModule],
   templateUrl: './projects-portfolio.component.html',
   styleUrls: ['./projects-portfolio.component.css']
 })
-export class ProjectsPortfolioComponent implements OnInit {
-  data: ProjectInterface[] = [];
-  path = "../../assets/projects.json";
 
-  constructor(private http: HttpClient) {}
+export class ProjectsPortfolioComponent{
 
-  ngOnInit() {
-    this.getJson_Service().subscribe((response: ProjectInterface[]) => {
+  projectsList:ProjectInterface[] = projects;
 
-      if (Array.isArray(response)) {
-        this.data = response;
-      } else {
-        this.data = [response];
-      }
-    }, error => {
-      console.log("Error al obtener los datos del json");
-    });
-  }
-  
-  getJson_Service(): Observable<ProjectInterface[]> {
-    return this.http.get<ProjectInterface[]>(this.path);
-  }
 }

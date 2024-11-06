@@ -1,7 +1,7 @@
 export interface ProjectInterface {
-    img: String,
-    title: String,
-    description: String,
-    urlCode: String,
-    urlPage: String
+    img: string,
+    title: string,
+    description: string,
+    urlCode: string,
+    urlPage: string
 }
